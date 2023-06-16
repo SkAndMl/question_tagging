@@ -1,13 +1,8 @@
 # PowerCoder: QuestionTagging
+## STACKING OF HYPERPARAMETER TUNED MODELS FOR TAGGING CODING PROBLEMS
 
-Question classification or question tagging is the process of identifying to which category a question belongs to. The research work this area has 
-so far focussed on more general categories but not on specific sub-categories. In the paper, we propose a Random Forest algorithm based classifier 
-that has been used to classify coding questions or questions that have to be answered using a high level program based on the data structures that 
-can be used to solve the question. The purpose of identifying the appropriate data structure is that, it can be used to generate algorithms and 
-high level programs that can be used to solve the question. The questions in the data belong to ‘array’, ‘graph’ and ‘string’. Only three classes 
-have been used because of the lack of a balanced dataset. Most of the standard machine learning classification algorithms have been used out of 
-which Random Forest and Gradient Boosting algorithms performed the best. Since, Gradient Boosting took a longer time to train, Random Forest has 
-been used as the final model in this paper. It achieved an accuracy of 78.77% in the test set without much hyper-parameter tuning. 
-Future works will focus on including more classes and the development of deep learning based architectures for the problem at hand.
-
+Abstract – Coding problems are problems that require a solution in the form of a computer program. Coding problems are popular among students and professionals as it enhances their skills and career opportunities. An AI system that would help those who practice coding problems would be highly useful and there is a huge potential for such a system. In this work, we propose a model which uses stacking of hyperparameter tuned boosting models to achieve impressive metric scores of **77.8% accuracy** and **0.815 PR-AUC** on the dataset that was scraped from Codeforces and Leetcode. We open source the dataset and the models developed for this work.<br><br>
+Performance of models open-sourced wrt to PR-AUC<br>
+![Performance of models open-sourced wrt to PR-AUC](https://github.com/SkAndMl/question_tagging/blob/main/images/precision_recall_curve.svg)
+<br>
 **The research paper will be out soon**
