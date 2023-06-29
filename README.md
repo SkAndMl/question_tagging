@@ -6,3 +6,8 @@ Performance of models open-sourced wrt to PR-AUC<br>
 ![Performance of models open-sourced wrt to PR-AUC](https://github.com/SkAndMl/question_tagging/blob/main/images/precision_recall_curve.svg)
 <br>
 **The research paper will be out soon**
+<br>
+After cloning the repository, run the following command
+```python
+pip install -r requirements.txt
+```
