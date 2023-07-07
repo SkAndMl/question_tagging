@@ -3,4 +3,4 @@ pandas
 matplotlib
 nltk
 scikit-learn
-tqdm
+spacy
