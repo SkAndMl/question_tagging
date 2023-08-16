@@ -7,3 +7,4 @@ spacy
 spacy-transformers
 en_core_web_sm
 en_core_web_trf
+torch
