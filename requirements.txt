@@ -3,6 +3,8 @@ pandas
 matplotlib
 nltk
 scikit-learn
+scikit-multilearn
+scipy
 spacy
 spacy-transformers
 en_core_web_sm
