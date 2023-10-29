@@ -7,6 +7,11 @@ scikit-multilearn
 scipy
 spacy
 spacy-transformers
-en_core_web_sm
-en_core_web_trf
+ipykernel
 torch
+torchaudio
+torchvision
+transformers
+huggingface_hub
+datasets
+ipywidgets
